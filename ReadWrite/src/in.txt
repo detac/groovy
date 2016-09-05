@@ -1,0 +1,157 @@
+ update c_extension_values (value,uc,um)
+
+ update c_contracts (no,no_form,lock_reason,email,authorisation_type,description,alerting_email,alerting_mobile, unlock_reason, memo, mob_status_last_update_by, uc, um)
+ 
+ null c_contracts (customer_pid,address_no, locked_by, unlock_by, phone_no, phone_no_2, mob_password, token_id)
+
+ update c_contract_rights (uc, im, alias)
+
+ update c_partners (no,no_form,birthday,employee_vip,name,surname,name_indx,surname_indx,phone_no,fax_no,email_addr,domicile_id,lang_id,nationality_id)
+
+ null c_partners (alias,mobile_no,segment,business_no,add_on,shortname)
+
+ update c_persons (login_name,name,surname,has_matrix_list,pwd_print_status,pwd_encrypted,pwd_readable,pwd_change,invalid_login_counter,last_login_at,last_logout_at,past_login_at,pwd_changed_at,valid_from,pwd_ordered_at,pwd_ordered_by,pwd_changed_by,uc,um)
+
+ update c_addresses (coun_id,no,salutation,firstname,surname,po_box,zip_code,city,state,care_of,attention_of,firm,salutation_letter,full_address,title,residency,street_add,street_name,street_nr,uc,um)
+
+ update c_contract_customers (uc,um,sign_by,countersign_by)
+
+ update c_auth_4p_pins (encryption_key,pwd_encrypted,status,uc,dc)
+
+ null c_auth_4p_pins (dm,um)
+
+ update c_auth_4p_passwords (encryption_key,pwd_encrypted,status,uc,dc)
+
+ null c_auth_4p_passwords (dm,um)
+
+ update c_permissions (uc,um,sign_by,countersign_by)
+
+ update c_permission_profiles (description,name,uc)
+
+ null c_permission_profiles (um,dm)
+
+ update c_permission_profile_products (uc)
+
+ null c_permission_profile_products (um,dm)
+
+ update c_products (no,no_form,description,alias,alias_form,iban)
+
+ update c_payments (amount,beneficiary1,beneficiary2,beneficiary3,beneficiary4,uc,um,pc_no,beneficiary_bc_no,beneficiary_account_no,beneficiary_bank_account_no,ps_reference_no,bank_adr1,bank_adr2,bank_adr3,bank_adr4,ipi_bank_swift_bic_no,ipi_payment_details,message1,message2,message3,message4,instr1,instr2,instr3,instr4,z_free_text1,z_free_text2,z_free_text3,z_free_text4,z_free_text5,bank_routing_info1,bank_routing_info2,bank_routing_info3,bank_routing_info4)
+
+ null c_payments (shipping_adr_cd,shipping_adr1,shipping_adr2,shipping_adr3,shipping_adr4)
+
+ update c_payment_sos (amount,beneficiary1,beneficiary2,beneficiary3,beneficiary4,uc,um,pc_no,beneficiary_bc_no,beneficiary_account_no,beneficiary_bank_account_no,ps_reference_no,bank_adr1,bank_adr2,bank_adr3,bank_adr4,ipi_bank_swift_bic_no,ipi_payment_details,message1,message2,message3,message4,instr1,instr2,instr3,instr4)
+
+ null c_payment_sos(shipping_adr_cd,shipping_adr1,shipping_adr2,shipping_adr3,shipping_adr4)
+
+ update c_payment_templates (amount,beneficiary1,beneficiary2,beneficiary3,beneficiary4,uc,um,pc_no,beneficiary_bc_no,beneficiary_account_no,beneficiary_bank_account_no,ps_reference_no,bank_adr1,bank_adr2,bank_adr3,bank_adr4,ipi_bank_swift_bic_no,ipi_payment_details,message1,message2,message3,message4,instr1,instr2,instr3,instr4)
+
+ null c_payment_templates(shipping_adr_cd,shipping_adr1,shipping_adr2,shipping_adr3,shipping_adr4)
+
+ update c_payment_groups (name)
+
+ update c_payment_slips (amount,reference_no,text,deliver_ref,reserve,account_no)
+
+ update c_products (value,value_c_curr,value_p_curr,value_b_curr,accrued_interest,accrued_inter_cust_curr,accrued_inter_port_curr,value_uncleared,value_eod,value_uncleared_eod,value_cleared,value_cleared_eod,description,uc,um)
+ 
+ null c_products (alias,alias_form,z_free_number2)
+
+ update c_accounts (amount_disposed,credit_limit,interest_rate,avail_amount_acc_curr,avail_amount_cust_curr,avail_amount_port_curr,description,uc,um)
+ 
+ null c_accounts (calc_curr_rate)
+ 
+ update c_account_groups (name,uc,um)
+ 
+ null c_account_groups(dm)
+ 
+ update c_portfolio (activa,passiva,description,uc,um)
+ 
+ null c_portfolio (value10)
+ 
+ update c_custody_accounts (rubric_label,uc,um)
+ 
+ update c_custody_acc_values (profit_expiration,value,profit_call,market_value,market_value_b_curr,market_value_c_curr,market_value_d_curr,market_value_p_curr,cost_value,cost_value_b_curr,cost_value_c_curr,cost_value_d_curr,cost_value_p_curr,accrued_interest,accrued_interest_b_curr,accrued_interest_c_curr,accrued_interest_d_curr,accrued_interest_p_curr,nr_exchange_profit_b_curr,nr_exchange_profit_c_curr,nr_exchange_profit_d_curr,nr_exchange_profit_p_curr,nr_exch_profit_pctg_b_curr,nr_exch_profit_pctg_c_curr,nr_exch_profit_pctg_d_curr,nr_exch_profit_pctg_p_curr,nr_market_profit,nr_market_profit_b_curr,nr_market_profit_c_curr,nr_market_profit_d_curr,nr_market_profit_p_curr,nr_market_profit_pctg,nr_market_profit_pctg_b_curr,nr_market_profit_pctg_c_curr,nr_market_profit_pctg_d_curr,nr_market_profit_pctg_p_curr,calc_exch_curr,calc_rate_trend,uc)
+ 
+ null c_custody_acc_values(z_free_text1,z_free_text2,z_free_number2)
+ 
+ update c_custody_acc_trxs (amount,price_rate_curr,value_rate_curr,clearing_amount,exchange_rate_trading_acco,amount1,amount2,amount3,amount4,value_customer_curr,value_portfolio_curr,transaction_text,uc,um)
+ 
+ null c_custody_acc_trxs (rate4)
+ 
+ update c_custody_acc_trx_details (text)
+ 
+ update c_performance (accrued_interest_balance,accrued_interest_change,adjusted_asset,admin_fee,aic,cost_fee,divident,intr_costs,net_income,nmf,nsf,performance,profit_loose,res_earnings,tax,total_asset_end,total_asset_start,total_deposits,total_input,total_withdrawals,uc,um)
+ 
+ null c_performance (real_loss_fx_pc)
+ 
+ update c_orders (amount,amount_executed,error_text,transaction_key,host_order_no,entered_by,uc,um)
+ 
+ null c_orders (z_free_number2)
+ 
+ update c_ips (value,name,product_name,uc)
+ 
+ null c_ips (um, dm)
+
+ update c_debit_mandates (owner,contract_owner,last_payment_amount,reg_no,uc)
+ 
+ null c_debit_mandates (dm,um)
+
+ update c_account_tt (description)
+
+ update c_custody_acc_tt (description)
+
+ update c_portfolio_types (description)
+ 
+ update c_portfolio_tt (description)
+
+ null C_SPOOLED_MESSAGES (MEFI_ID)
+
+ null C_URI_FILES (MEFI_ID)  
+  
+ null C_ACCOUNT_TRX_DETAILS (URFI_ID)
+
+ null C_CUSTODY_ACC_TRX_DETAILS (URFI_ID)
+ 
+ null C_MAIL_ATTACHMENTS (URFI_ID)
+ 
+ null C_BANK_DOC_ENTRIES (URFI_ID)
+
+ update c_cap_cards (uc,pan,atc,psn)
+ 
+ null c_cap_cards (dm,um,locked_by,locked_at,lock_reason,unlock_by,unlock_at,unlock_reason)
+ 
+ update c_cap_card_orders (displayed_user_forename,displayed_user_surname,displayed_business_name_1,displayed_business_name_2,delivery_addr_1,delivery_addr_2,delivery_country_cd,user_addr_1,user_addr_2,user_country_cd,sign_by,countersign_by,uc,delivery_addr_name,delivery_salutation,user_addr_name,user_salutation)
+ 
+ null c_cap_card_mappings (delivery_addr_3,delivery_addr_4,delivery_addr_5,delivery_addr_6,user_addr_3,user_addr_4,user_addr_5,user_addr_6,um,dm)
+
+ update c_cards(card_no,name,uc)
+ 
+ null c_cards(um,dm)
+
+ update c_cms_accounts (uc)
+ 
+ null c_cms_accounts (dm,um)
+ 
+ update c_cms_clients (uc)
+ 
+ null c_cms_clients (dm,um)
+ 
+ update c_cms_account_groups (uc)
+ 
+ null c_cms_account_groups (dm,um)
+ 
+ update c_cms_contract_rights (uc)
+ 
+ null c_cms_contract_rights (dm,um)
+ 
+ update c_cms_interest_rates (uc)
+ 
+ null c_cms_interest_rates (dm,um)
+ 
+ update c_cms_terms (uc)
+ 
+ null c_cms_terms (dm,um)
+ 
+ update c_cms_account_history (uc) 
+
+ update c_security_texts (text_short)

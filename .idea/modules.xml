@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Basic/Basic.iml" filepath="$PROJECT_DIR$/Basic/Basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Database/Database.iml" filepath="$PROJECT_DIR$/Database/Database.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Groovy.iml" filepath="$PROJECT_DIR$/Groovy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/REST/REST.iml" filepath="$PROJECT_DIR$/REST/REST.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ReadWrite/ReadWrite.iml" filepath="$PROJECT_DIR$/ReadWrite/ReadWrite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UnitTest/UnitTest.iml" filepath="$PROJECT_DIR$/UnitTest/UnitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XML/XML.iml" filepath="$PROJECT_DIR$/XML/XML.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,14 @@
+<?xml version='1.0'?>
+<Document><!--Element Parent-->
+    <Parent gender='Male'>
+        <Name>Zlatomir</Name>
+        <Child>
+            <Name>Dijana</Name>
+            <YearOfBirth>1982</YearOfBirth>
+        </Child>
+        <Child>
+            <Name>Dejan</Name>
+            <YearOfBirth>1985</YearOfBirth>
+        </Child>
+    </Parent>
+</Document>
