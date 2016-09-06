@@ -1,0 +1,28 @@
+{  
+   "repositories":[  
+      {  
+         "name":"clx-ebanking",
+         "location":"C:\\ebanking\\trunk",
+         "branches":["master", "release/R18.1"],
+         "main_branch":"release/R18.1"
+      },
+      {  
+         "name":"clx-ebanking-vz",
+         "location":"C:\\ebanking\\vz",
+         "branches":["release/R18.0-VZ"],
+         "main_branch":"release/R18.0-VZ"
+      },
+      {  
+         "name":"clx-ebanking-tkb",
+         "location":"C:\\ebanking\\tkb",
+         "branches":["release/R18.1-TKB"],
+         "main_branch":"release/R18.1-TKB"
+      },
+      {  
+         "name":"clx-db",
+         "location":"C:\\ebanking\\hmidb\\dbtest",
+         "branches":["dbtest/R18.1", "dbtest/master"],
+         "main_branch":"dbtest/R18.1"
+      }
+   ]
+}

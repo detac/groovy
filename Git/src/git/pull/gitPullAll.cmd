@@ -1,0 +1,1 @@
+cd C:\developer\projects\intellij\groovy\Git\src\git\pull && groovy GitPullAll.groovy && cd c:\ebanking

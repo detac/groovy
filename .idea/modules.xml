@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Basic/Basic.iml" filepath="$PROJECT_DIR$/Basic/Basic.iml" />
       <module fileurl="file://$PROJECT_DIR$/Database/Database.iml" filepath="$PROJECT_DIR$/Database/Database.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DateParser/DateParser.iml" filepath="$PROJECT_DIR$/DateParser/DateParser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Git/Git.iml" filepath="$PROJECT_DIR$/Git/Git.iml" />
       <module fileurl="file://$PROJECT_DIR$/Groovy.iml" filepath="$PROJECT_DIR$/Groovy.iml" />
       <module fileurl="file://$PROJECT_DIR$/REST/REST.iml" filepath="$PROJECT_DIR$/REST/REST.iml" />
       <module fileurl="file://$PROJECT_DIR$/ReadWrite/ReadWrite.iml" filepath="$PROJECT_DIR$/ReadWrite/ReadWrite.iml" />
