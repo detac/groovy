@@ -2,27 +2,38 @@
    "repositories":[  
       {  
          "name":"clx-ebanking",
-         "location":"C:\\ebanking\\trunk",
-         "branches":["master", "release/R18.1"],
-         "main_branch":"release/R18.1"
+         "location":"C:\\ebanking-git\\clx-ebanking",
+		 "remotes":["origin"],
+         "branches":["master", "release/R18.3"],
+         "main_branch":"master"
       },
       {  
-         "name":"clx-ebanking-vz",
-         "location":"C:\\ebanking\\vz",
-         "branches":["release/R18.0-VZ"],
-         "main_branch":"release/R18.0-VZ"
-      },
-      {  
-         "name":"clx-ebanking-tkb",
-         "location":"C:\\ebanking\\tkb",
-         "branches":["release/R18.1-TKB"],
-         "main_branch":"release/R18.1-TKB"
-      },
-      {  
-         "name":"clx-db",
-         "location":"C:\\ebanking\\hmidb\\dbtest",
-         "branches":["dbtest/R18.1", "dbtest/master"],
+         "name":"clx-db-r182",
+         "location":"C:\\ebanking-git\\clx-db-r182",
+		 "remotes":["origin"],
+         "branches":["dbtest/R18.1", "dbtest/R18.2"],
          "main_branch":"dbtest/R18.1"
-      }
+      },
+      {  
+         "name":"clx-db-r183",
+         "location":"C:\\ebanking-git\\clx-db-r183",
+		 "remotes":["origin"],
+         "branches":["dbtest/master", "dbtest/R18.3"],
+         "main_branch":"dbtest/R18.3"
+      },
+      {  
+         "name":"tkb-r183",
+         "location":"C:\\ebanking-git\\tkb-r183",
+		 "remotes":["prod", "tkb"],
+         "branches":["release/R18.3", "release/R18.3-TKB"],
+         "main_branch":"master"
+      },
+      {  
+         "name":"sgkb-r183",
+         "location":"C:\\ebanking-git\\sgkb-r183",
+		 "remotes":["prod", "sgkb"],
+         "branches":["release/R18.3", "release/R18.3-SGKB"],
+         "main_branch":"master"
+      }	  	  
    ]
 }
