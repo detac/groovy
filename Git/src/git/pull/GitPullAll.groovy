@@ -46,7 +46,12 @@ properties.repositories.each { repository ->
         println '> git checkout ' + branch
         def checkout_branch = cd + ' && git checkout ' + branch
         checkout_branch.execute().waitForProcessOutput(System.out, System.err)
-        println ''	
+        println ''
+
+        println '> git checkout -- .'
+        def checkout_head = cd + '&& git checkout -- .'
+        checkout_head.execute().waitForProcessOutput(System.out, System.err)
+        println ''
 		
         println '> git pull'
         def pull = cd + ' && git pull'
